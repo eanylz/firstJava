@@ -1,7 +1,7 @@
 package day13inheritance;
 
 public class Car {
-Engine engine;
+    Engine engine;
     public Car() {
          engine = new Engine();
     }
@@ -20,5 +20,5 @@ Engine engine;
 
 
 //inheritance-- is a
-//association->aggregation and composition---has a
+//association->aggregation(weak) and composition(strong)---has a
 //https://www.youtube.com/watch?v=9nRblRcb35Y&ab_channel=SmartProgramming
